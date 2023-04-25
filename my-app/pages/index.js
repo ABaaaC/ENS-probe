@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import React, { useEffect, useRef, useState } from "react"
 
-import { utils, providers } from "ethers"
+import { providers } from "ethers"
 import Web3Modal from "web3modal"
 
 export default function Home() {
